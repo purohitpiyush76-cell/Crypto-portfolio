@@ -1,16 +1,74 @@
-# React + Vite
+* Name - Piyush purohit
+* Project name - Crypto portfolio
+* InternId - CITS6185
+* Duration - 4 weeks
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Currently, two official plugins are available:
+#  Crypto Portfolio Tracker
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A modern and interactive **Crypto Portfolio Tracker** built with **React**, **Vite**, and **React Hooks**. This application allows users to manage a virtual cryptocurrency portfolio by adding coins, viewing their holdings, calculating the total portfolio value, and removing assets from the portfolio.
 
-## React Compiler
+This project was developed to strengthen React fundamentals, particularly state management with the `useState` hook, component-based architecture, and dynamic rendering.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+*  Add cryptocurrencies to your portfolio
+*  View all holdings in organized cards
+*  Automatically calculate the value of each cryptocurrency
+*  Display the total portfolio value
+*  Remove cryptocurrencies from the portfolio
+*  Form validation for empty inputs
+*  Fast development experience powered by Vite
+*  Responsive and clean user interface
+
+---
+
+##  Technologies Used
+
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Hooks (`useState`)
+
+---
+
+##  How It Works
+
+1. Enter the cryptocurrency name.
+2. Enter the quantity you own.
+3. Enter the price per coin.
+4. Click **Add Coin**.
+5. The application calculates the total value for each cryptocurrency.
+6. The overall portfolio value updates automatically.
+7. Remove any cryptocurrency using the **Delete** button.
+
+---
+# Code and output
+
+<img width="1917" height="1010" alt="Screenshot 2026-07-08 215538" src="https://github.com/user-attachments/assets/86a3b7d5-67d4-495d-87f0-22413206f53c" />
+
+
+<img width="1913" height="981" alt="Screenshot 2026-07-08 215529" src="https://github.com/user-attachments/assets/3bc45111-a491-4ef7-8f25-73ed7d9ff590" />
+
+
+##  Future Enhancements
+
+*  Integrate live cryptocurrency prices using the CoinGecko API
+*  Add portfolio charts and graphs
+*  Track profit and loss
+*  Save the portfolio using Local Storage
+*  Search and autocomplete cryptocurrency names
+*  Dark/Light mode toggle
+*  Enhanced mobile responsiveness
+
+---
+
+## 👨‍💻 Author
+
+**Piyush Purohit**
+
+This project was created as part of my React learning journey to practice state management, component communication, and building interactive user interfaces.
