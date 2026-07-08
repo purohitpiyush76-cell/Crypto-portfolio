@@ -1,0 +1,85 @@
+.container{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.form{
+    display:flex;
+    gap:15px;
+    margin-bottom:30px;
+    flex-wrap:wrap;
+}
+
+.form input{
+    flex:1;
+    min-width:180px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.form button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#22c55e;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.form button:hover{
+    background:#16a34a;
+}
+
+.coin-card{
+    background:#1e293b;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+.coin-card h2{
+    margin-bottom:15px;
+    color:#38bdf8;
+}
+
+.coin-card p{
+    margin:8px 0;
+}
+
+.coin-card button{
+    margin-top:15px;
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.coin-card button:hover{
+    background:#dc2626;
+}
+
+.total-card{
+    margin-top:40px;
+    text-align:center;
+    background:#1e293b;
+    padding:30px;
+    border-radius:12px;
+}
+
+.total-card h1{
+    margin-top:15px;
+    color:#22c55e;
+}
