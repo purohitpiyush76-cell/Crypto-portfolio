@@ -1,9 +1,3 @@
-* Name - Piyush purohit
-* Project name - Crypto portfolio
-* InternId - CITS6185
-* Duration - 4 weeks
-
-
 #  Crypto Portfolio Tracker
 
 A modern and interactive **Crypto Portfolio Tracker** built with **React**, **Vite**, and **React Hooks**. This application allows users to manage a virtual cryptocurrency portfolio by adding coins, viewing their holdings, calculating the total portfolio value, and removing assets from the portfolio.
